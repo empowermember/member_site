@@ -1,0 +1,1 @@
+$(document).ready(function(){$("[id^='browseEventType-']").click(function(n){var t,i;(n.preventDefault(),t=$(this).prop("href"),t!=="")&&(i=$("#txtEventsZipId"),i.val()!==""&&(t+="&zip="+i.val()),location.href=t)})})
